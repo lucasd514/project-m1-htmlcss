@@ -1,1 +1,282 @@
-/* CSS here :) */
+body {
+    margin:0;
+    font-family: poppins;
+}
+/** navbar **/
+.navcont {
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+  align-items: top;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.navcont > div, nav, ul{
+
+border: orange 3px solid;
+}
+.navbar {
+    background: darkslategrey;
+    position: relative
+}
+
+
+.logo {
+    width: 30%;
+    height: 30%;
+    border: darkviolet 2px solid;
+}
+
+.top-list {
+    display: none;
+    justify-content: center;
+    margin-left: 30;
+    }
+
+.top-list > li {
+    margin: 10px
+}
+
+.side-list >ul:{
+    display: none;
+}
+
+
+
+@media (min-width: 768px) {
+    .top-list {
+        display: flex;
+        list-style-type: none;
+        margin: 20px;
+        
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    /*dropdown */
+
+    .nav-dropdown li { 
+        display: none;
+    }
+ 
+ 
+    .nav-dropdown {
+        
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    }
+
+   .nav-dropdown:hover > li {
+    display: inline-block;
+    background-color: darkslategrey;
+    text-decoration: white;
+
+   }
+
+   a {
+       text-decoration: none;
+       color: white;
+   }
+
+}
+
+
+
+
+    
+
+    
+
+
+//** footer **//
+.legal-item{
+  padding: 15px;
+  
+}
+
+.legal-item a {
+    text-decoration: none;
+    color: rgb(112, 107, 107);
+
+}
+
+.legal-cont{
+    border-top:1px solid lightgrey;
+    max-height: 10%;
+    padding: 40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.legal{
+    list-style: none;
+     padding: 5px;
+    display: inline-block;
+   
+}
+
+.divlegal {
+ padding: 30px;
+}
+
+form{
+    color: rgb(112, 107, 107);
+    padding: 40px;
+    text-align: center;
+}
+
+/** email **/
+.box div {
+    border: black 1px solid
+}
+ 
+ .container label {
+     font-size: 20px;
+ }
+
+ .sendbutton {
+     width: 250x;
+     height: 40px;
+     background: grey;
+     border-radius: 3px;
+     margin: 0;
+     padding:0;
+      }
+
+/** cards **/
+
+.III {
+    padding: 10px;
+    text-align: center;
+    margin: 0px 8% 0px 8%;
+  /* took flex from here */  
+}
+
+.III div {
+    border: black 3px solid;
+    margin: 20px;
+       
+    }
+
+.III > h3 {
+    color: black;
+    
+}
+
+.III  P {
+    color: lightgrey;
+}
+
+.III button {
+    background-color: darkslategrey;
+    text-align: center;
+    color: floralwhite;
+    cursor: pointer;
+    padding: 15px;
+    width: 80%;
+    height: 45px;
+    margin-bottom: 10px;
+        
+
+}
+
+@media (min-width: 768px) {
+    .III {display: flex;
+    } }
+
+/** Cats **/
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1px;
+}
+
+.pics img {
+    width: 100%;
+    margin 5px;
+}
+
+@media (min-width: 768px) {
+    .pics img {
+        box-sizing: border-box;
+    padding: 1px;
+    width: calc(100% / 3);
+    }
+}
+
+/** boxes **/
+.blocks{
+    border: none;
+}
+
+ .top {
+     width: 100%;
+     height: 300px;
+     position: relative;
+     background-color: #3a3633 ;
+     text-align: left;
+     
+ }
+
+ .front {
+     background-color: #3a3633;
+     position: absolute;
+     border: 5px solid white;
+     width: 150px;
+     text-align: center;
+     padding: 5px 20px;
+     left:30vh;
+     bottom: -9vh;
+ }
+
+ .bot {
+    width: 100%;
+    height: 300px; 
+text-align: right;
+background-image: linear-gradient(to right, white, rgb(16, 139, 253));
+}
+
+@media (min-width: 768px) {
+    .front{
+        left: 8%
+    }
+}
+
+/**taxi **/
+
+.taxi {
+    background-image: url("/imgs/rocket.jpg");
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: var(--nav-height);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightleft {
+    border: solid white 4px;
+    display: flex;
+}
+
+.right  {
+    background-color: 	rgb(58, 54, 51, .3);
+}
+
+.right h3, p {
+    color: white; opacity: 1;
+    ;
+}
