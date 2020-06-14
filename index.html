@@ -10,40 +10,44 @@
   </head>
   <body>
     <div class="navcont">
-        <span class="logo">
-          <img class="logo" src="imgs/logo.svg" alt="logo" />
-        </span>
-      
+        <div class="logo">
+          <img class="logobar" src="imgs/logo.svg" alt="logo" />
+         <a href="#"><img class="logobar" src="imgs/logo.svg" alt="logo" /></a> 
+        </div>
+
         <nav class="nav-list">
           <div class="top-list">
             <ul class="bardown">features</ul>
             <ul class="bardown">advantages</ul>
             <ul class="bardown">gallery</ul>
             <ul class="nav-dropdown">products
-               <li><a href="#">Amazing</a></li>
-               <li><a href="#">dropdown</a></li>
-               <li><a href="#">3</a></li> 
+               <li><a href="https://www.asroma.com/">dropdown1</a></li>
+               <li><a href="https://www.asroma.com/">dropdown2</a></li>
+               <li><a href="https://www.asroma.com/">dropdown3 </a></li> 
               </ul>                
           </div>
        </nav>
-
        <nav class="mobile-nav">
          <div class = side-list>
         <button class= aria-label="Show menu">
           <img class="mobile-nav-button" src="imgs/menu.svg" />
         </button>
+          <div class ="moblist">
+              <ul>features</ul>
+              <ul>advantages</ul>
+              <ul>gallery</ul>
+              <ul>products</ul>             
+          </div>
         </div>
         </nav>
        </div>
-
-
     <container class="taxi">
       <div class = "rightleft">
-      <div class="left"><h2>Grazie Roma</h2></div>
+      <div class="left"><h2>f9</h2></div>
       <div class="right">
-        <h3>Una Persona nuova</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores nihil fugiat omnis delectus. Voluptate, animi! Quos accusantium doloremque, cupiditate consequuntur quam adipisci tenetur quibusdam quis sunt non, molestiae recusandae ipsa.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim quod iure, vero voluptates officiis obcaecati quisquam aperiam doloremque provident dolorum error unde reprehenderit consequatur debitis est voluptas voluptate. Et.</p>
+        <h3>lets go rocketing</h3>
+        <div class= "paragraph"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores nihil fugiat omnis delectus. Voluptate, animi! Quos accusantium doloremque, cupiditate consequuntur quam adipisci tenetur quibusdam quis sunt non, molestiae recusandae ipsa.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim quod iure, vero voluptates officiis obcaecati quisquam aperiam doloremque provident dolorum error unde reprehenderit consequatur debitis est voluptas voluptate. Et.</p></div>
       </div>
       </div>
     </container>
@@ -67,10 +71,9 @@
              <button> Lazio Merda  </button>
             </div>
     </container>
-
     <container class="blocks">
       <div class="top">
-        <h2 class="htop">YERRRRRRRRRR</h2>
+        <h2 class="htop">This is my 2day css site</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum nam, eligendi saepe rem dignissimos porro quia impedit voluptatibus, adipisci doloribus? Unde tenetur veniam rem sequi? Veritatis eos sed voluptatibus.</p>
                 <div class = "front">
                   <h5 class="header">Texty boyzzzz</h2>
@@ -78,31 +81,58 @@
                 </div>
       </div>
       <div class="bot">
-        <h2 class="hbot">gradient</h2>
+        <h2 class="hbot">not too shabby </h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum nam, eligendi saepe rem dignissimos porro quia impedit voluptatibus, adipisci doloribus? Unde tenetur veniam rem sequi? Veritatis eos sed voluptatibus.</p>
       </div>
       </container>
-
-
-    <div class="pics" >
-      <img src ="imgs/tesla.jpg" alt ="elon" />
-      <img src ="imgs/procat.jpg" alt= "meowth" />
-      <img src ="imgs/hyperloop.jpg" alt="musk" />
-      <img src = "imgs/sneakycat.jpg" alt="puss" />
-      <img src = "imgs/bfr.jpeg" alt="tintin" />
-      <img src = "imgs/funnycat.jpg" alt="garfield" />
-        </div> 
-
-        <div class = "container">
+      <div class="pics" >
+        <div class="container" >
+            <img src ="imgs/tesla.jpg" alt ="elon" />
+            <div class ="overlay">
+                <div class="text">Elon</div>
+            </div>
+        </div>
+        <div class="container" >
+            <img src ="imgs/procat.jpg" alt ="meowth" />
+            <div class ="overlay">
+                <div class="text">meowth</div>
+            </div>
+        </div>
+        <div class="container" >
+            <img src ="imgs/hyperloop.jpg" alt ="musk" />
+            <div class ="overlay">
+                <div class="text">musk</div>
+            </div>
+        </div>
+        <div class="container" >
+            <img src ="imgs/sneakycat.jpg" alt ="puss" />
+            <div class ="overlay">
+                <div class="text">Elon</div>
+            </div>
+        </div>
+        <div class="container" >
+            <img src ="imgs/tintin.jpg" alt ="tintin" />
+            <div class ="overlay">
+                <div class="text">tintin</div>
+            </div>
+        </div>
+        <div class="container" >
+            <img src ="imgs/funnycat.jpg" alt ="garfield" />
+            <div class ="overlay">
+                <div class="text">garfield</div>
+            </div>
+        </div>
+            
+        <div class = "cnt">
           <form class="box">
             <div class="mail">
             <label>
               Register to our mailing list:
             </label>
             </div>
-            <div class="box">
+            <div class="subbox">
             <div><Input  class="ebt" type="email" required/></div>
-              <div><button class="sendbutton"><img src="imgs/send.svg"></button></div>
+              <div class="sendbutton"><button ><img src="imgs/send.svg"></button></div>
             </div>
             <div class="send">
             <input type="checkbox" id="scales" name="scales"/>
@@ -112,46 +142,34 @@
         </div>
     
         
-
-
-
-
-
-
-
-  <footer>
-     <div class="legal-cont">
-       <div class="divlegal">
-         <ul class="legal">
+  <div class="blueface">
+           <ul class="legal">
            <li class="legal-item"><a href="#">about us</a></li>
            <li class="legal-item"><a href="#">function</a></li>
            <li class="legal-item"><a href="#">test</a></li>
            <li class="legal-item"><a href="#">daje</a></li>
          </ul>
-      </div><div class="divlegal">
-        <ul class="legal">
+           <ul class="legal">
           <li class="legal-item"><a href="#">about us</a></li>
           <li class="legal-item"><a href="#">function</a></li>
           <li class="legal-item"><a href="#">test</a></li>
           <li class="legal-item"><a href="#">daje</a></li>
         </ul>
-     </div>
-     <div class="divlegal">
-      <ul class="legal">
+     
+           <ul class="legal">
         <li class="legal-item"><a href="#">about us</a></li>
         <li class="legal-item"><a href="#">function</a></li>
         <li class="legal-item"><a href="#">test</a></li>
         <li class="legal-item"><a href="#">daje</a></li>
       </ul>
-   </div>
-   <div class="divlegal">
-    <ul class="legal">
+   
+       <ul class="legal">
       <li class="legal-item"><a href="#">about us</a></li>
       <li class="legal-item"><a href="#">function</a></li>
       <li class="legal-item"><a href="#">test</a></li>
       <li class="legal-item"><a href="#">daje</a></li>
     </ul>
- </div>
-    </footer>
+ 
+  </div>
   </body>
 </html>
