@@ -4,7 +4,7 @@ body {
 }
 /** navbar **/
 .navcont {
-    background-color: darkslategrey;
+    background-color: rgb(6, 10, 48);
     display: flex;
     justify-content: space-between;
   align-items: top;
@@ -17,16 +17,18 @@ body {
   z-index: 99;
   width: 100%;
 }
-.nav-list {
-    background: darkslategrey;
-    position: relative;
-    
-    
-    
+
+.navText{
+margin-top: 15px;
+margin-left: 15px;
 }
+.headshot{
+ width: 80px;
+ border-radius: 25%;
+}
+
 .logo {
-    
-    margin-top: 2%;
+    display: flex;
 }
 .logobar {
     width: 10vh;
@@ -74,7 +76,12 @@ body {
 }
 @media (min-width: 768px) {
     .logo {
-        margin-top: 0;
+        margin-top: 5px;
+        color: white
+    }
+
+    .mail{
+        text: black
     }
    
     .top-list {
@@ -106,7 +113,7 @@ body {
    }
    a {
        text-decoration: none;
-       color: white;
+       color: red;
    }
 }
     
@@ -120,6 +127,11 @@ body {
     justify-content: space-evenly;
     margin-left: 5%;
     
+}
+
+.blueface >a {
+    text-decoration: none;
+    color: rgb(112, 107, 107);
 }
 .legal{
     list-style: none;
@@ -153,10 +165,20 @@ form{
     text-align: center;
 }
 /** email **/
+
+
 .cnt {
     width: 100%;
     position: relative;
+
     
+
+    
+    
+}
+
+.cnt > text {
+    text: black;
 }
 .subbox {
     display: flex;
@@ -197,7 +219,7 @@ form{
     
 }
 .III  P {
-    color: lightgrey;
+    color: slategray;
 }
 .III button {
     background-color: darkslategrey;
@@ -266,7 +288,6 @@ form{
 }
 .pics img {
     width: 100%;
-    margin 5px;
 }
 @media (min-width: 768px) {
     .container{
@@ -298,7 +319,8 @@ form{
      background-color: #3a3633;
      position: absolute;
      border: 5px solid white;
-     width: 150px;
+     width: 100px;
+     height: 100px;
      text-align: center;
      padding: 5px 20px;
      left:30vh;
@@ -328,7 +350,7 @@ border: #3a3633 3px solid;
 }
 /**taxi **/
 .taxi {
-    background-image: url("/imgs/tintin.jpg");
+    background-image: url("/imgs/personal/01-89141-20181117061208.jpg");
     width: 100%;
     height: 600px;
     position: relative;
@@ -352,6 +374,11 @@ border: #3a3633 3px solid;
     }
     .left h2 {
         margin: 5px;
+    }
+    .left img {
+        margin-left: 10vw;
+        margin-top: 6vh;
+        width: 40%;
     }
     .right {
         width: 100%;
